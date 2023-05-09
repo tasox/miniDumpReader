@@ -1,6 +1,7 @@
 # Description
 miniDumpReader is a Windows MiniDump (MDMP) reader that leverages Kaitai Struct (https://kaitai.io) to parse Windows memory dumps.
 
+![Alt text](Screenshot1.png)
 
 ## Requirements
 ```
@@ -33,3 +34,4 @@ python3 dmpStruct.py -f /home/parallels/Tools/miniDumpReader/rev_http.dmp -y /ho
 python3 dmpStruct.py -f /home/parallels/Tools/miniDumpReader/rev_http.dmp -y /home/parallels/Tools/miniDumpReader/Yara/rules -X
 python3 dmpStruct.py -f /home/parallels/Tools/miniDumpReader/rev_http.dmp -X
 ```
+![Alt text](Screenshot2.png)
